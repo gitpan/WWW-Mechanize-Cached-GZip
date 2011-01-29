@@ -1,5 +1,8 @@
 Revision history for WWW-Mechanize-Cached-GZip
 
+0.11    2011-01-29
+        Fixed upload problems
+
 0.10    2011-01-28
         First version.
 

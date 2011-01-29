@@ -4,7 +4,7 @@ WWW::Mechanize::Cached::GZip - like WWW::Mechanize + caching + gzip-compression
 
 =head1 VERSION
 
-Version 0.10
+Version 0.11
 
 =head1 SYNOPSIS
 
@@ -90,7 +90,7 @@ modify it under the same terms as Perl itself.
 
 package WWW::Mechanize::Cached::GZip;
 
-our $VERSION = '0.10';
+our $VERSION = '0.11';
 
 use Moose;
 extends 'WWW::Mechanize::Cached';
