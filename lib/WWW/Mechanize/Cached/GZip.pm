@@ -4,7 +4,7 @@ WWW::Mechanize::Cached::GZip - like WWW::Mechanize + caching + gzip-compression
 
 =head1 VERSION
 
-Version 0.11
+Version 0.12
 
 =head1 SYNOPSIS
 
@@ -42,7 +42,7 @@ The decompression of the response is handled by L<Compress::Zlib>::memGunzip.
 
 There is a small webform, you can instantly test, whether a webserver supports
 gzip-compression on a particular URL:
-L<http://www.computerhandlung.de/www-mechanize-gzip.htm>
+L<http://www.computerhandlung.de/www-mechanize-cached-gzip.htm>
 
 =head2 CACHING
 
@@ -90,7 +90,7 @@ modify it under the same terms as Perl itself.
 
 package WWW::Mechanize::Cached::GZip;
 
-our $VERSION = '0.11';
+our $VERSION = '0.12';
 
 use Moose;
 extends 'WWW::Mechanize::Cached';
